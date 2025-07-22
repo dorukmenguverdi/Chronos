@@ -1,12 +1,68 @@
-# React + Vite
+# ⏳ Chronos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Chronos is a minimalist daily dashboard built with **React**.  
+It combines a real-time digital clock, an interactive calendar, and daily motivational quotes — all wrapped in a clean, frosted-glass design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖼️ Preview
 
-## Expanding the ESLint configuration
+![Chronos Screenshot](public/generalView.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 🕒 **Live Digital Clock** – updates every second in 12-hour format with AM/PM
+- 📅 **Interactive Calendar** – select any date using `react-calendar`
+- 📝 **Quote of the Day** – motivational messages based on the day of the week
+- 💎 **Modern UI** – glassmorphism style with `backdrop-filter` and soft colors
+- 📱 **Responsive Design** – works across screen sizes (optional if true)
+
+---
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/)
+- [React Calendar](https://www.npmjs.com/package/react-calendar)
+- HTML & CSS (custom styling)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/dorukmenguverdi/chronos.git
+
+# Navigate into the project directory
+cd chronos
+
+# Install dependencies
+npm install
+
+# Start the app
+npm start
+```
+
+---
+📂 Folder Structure
+
+chronos/
+├── public/
+│   └── screenshot.png
+├── src/
+│   ├── components/
+│   │   ├── DigitalClock.jsx
+│   │   ├── CalendarWidget.jsx
+│   │   └── QuoteOfTheDay.jsx
+│   ├── App.jsx
+│   └── index.css
+├── README.md
+└── .gitignore
+
+---
+
+🌟 Inspiration
+The name Chronos is inspired by the Greek god of time.
+This project was created to provide a calm, daily-focused dashboard for personal use or to be extended into a productivity tool.
